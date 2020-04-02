@@ -1,0 +1,7 @@
+action: flake8, msg: getenv
+cwd: /home/ccj/tp2integrationcontinue/.tox
+cmd: /home/ccj/anaconda3/bin/python3.7 -m virtualenv --no-download --python /home/ccj/anaconda3/bin/python3.7 flake8
+created virtual environment CPython3.7.4.final.0-64 in 296ms
+  creator CPython3Posix(dest=/home/ccj/tp2integrationcontinue/.tox/flake8, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/ccj/.local/share/virtualenv/seed-app-data/v1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator

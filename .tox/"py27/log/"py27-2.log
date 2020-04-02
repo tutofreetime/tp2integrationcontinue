@@ -1,0 +1,4 @@
+action: "py27, msg: envreport
+cwd: /home/ccj/tp2integrationcontinue
+cmd: '/home/ccj/tp2integrationcontinue/.tox/"py27/bin/python' -m pip freeze
+fizzbuzz==1.0.0

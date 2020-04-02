@@ -1,0 +1,4 @@
+action: "py38, msg: envreport
+cwd: /home/ccj/tp2integrationcontinue
+cmd: '/home/ccj/tp2integrationcontinue/.tox/"py38/bin/python' -m pip freeze
+fizzbuzz==1.0.0

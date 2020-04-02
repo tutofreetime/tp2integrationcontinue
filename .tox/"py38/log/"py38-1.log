@@ -1,0 +1,16 @@
+action: "py38, msg: installpkg
+cwd: /home/ccj/tp2integrationcontinue
+cmd: '/home/ccj/tp2integrationcontinue/.tox/"py38/bin/python' -m pip install --exists-action w .tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+Processing ./.tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+Building wheels for collected packages: fizzbuzz
+  Building wheel for fizzbuzz (setup.py): started
+  Building wheel for fizzbuzz (setup.py): finished with status 'done'
+  Created wheel for fizzbuzz: filename=fizzbuzz-1.0.0-py3-none-any.whl size=1072 sha256=7b6a2e365b51efeec1a79d599619234984bb72c452f6766e83f8e84ad62e4232
+  Stored in directory: /home/ccj/.cache/pip/wheels/3a/e9/a1/2b51275f2c036c6ee45ad6447bed4d3641e28c591f5a2efc76
+Successfully built fizzbuzz
+Installing collected packages: fizzbuzz
+  Attempting uninstall: fizzbuzz
+    Found existing installation: fizzbuzz 1.0.0
+    Not uninstalling fizzbuzz at /home/ccj/tp2integrationcontinue, outside environment /home/ccj/tp2integrationcontinue/.tox/"py38
+    Can't uninstall 'fizzbuzz'. No files were found to uninstall.
+Successfully installed fizzbuzz-1.0.0
